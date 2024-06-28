@@ -1,7 +1,10 @@
 import './App.css'
 import Navbar from './Navbar'
+import Footer from './Footer'
+
 
 export default function App() {
+  
   return (
     <div>
       <header>
@@ -10,7 +13,9 @@ export default function App() {
 
       <main></main>
         
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   )
 }

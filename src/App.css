@@ -1,5 +1,39 @@
-main {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+  font-family: Noto Sans;
+
+}
+
+a{
+  text-decoration:none;
+  color:red;
+}
+a:active{
+  color:red;
+}
+
+nav{
+  width: 370px;
+  height: 50px;
+  margin:0px;
+  margin-left: -3px;
+  padding: 0px;
+  padding-left: 10px;
+  display: flex;
+  gap:108px;
+  align-items: center;
 }
 .brandName{
-  color : red ;
+  font-size:18px;
+  color: red;
+  font-weight: bold;
+  
 }
+.links{
+  font-size: 12px;
+  font-weight: regular;
+  display: flex;
+  gap: 12px;
+}
+
